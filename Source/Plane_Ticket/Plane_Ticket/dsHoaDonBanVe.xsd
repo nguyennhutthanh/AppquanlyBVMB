@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsHoaDonBanVe" targetNamespace="http://tempuri.org/dsHoaDonBanVe.xsd" xmlns:mstns="http://tempuri.org/dsHoaDonBanVe.xsd" xmlns="http://tempuri.org/dsHoaDonBanVe.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="2" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="PLANE_TICKETConnectionString1" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="PLANE_TICKETConnectionString1 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Plane_Ticket.Properties.Settings.GlobalReference.Default.PLANE_TICKETConnectionString1" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="ConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="ConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Plane_Ticket.Properties.Settings.GlobalReference.Default.ConnectionString" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="PLANE_TICKETConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="PLANE_TICKETConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Plane_Ticket.Properties.Settings.GlobalReference.Default.PLANE_TICKETConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsHoaDonBanVe" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsHoaDonBanVe" msprop:Generator_UserDSName="dsHoaDonBanVe">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="HoaDonBanVe" msprop:Generator_TableClassName="HoaDonBanVeDataTable" msprop:Generator_TableVarName="tableHoaDonBanVe" msprop:Generator_RowChangedName="HoaDonBanVeRowChanged" msprop:Generator_TablePropName="HoaDonBanVe" msprop:Generator_RowDeletingName="HoaDonBanVeRowDeleting" msprop:Generator_RowChangingName="HoaDonBanVeRowChanging" msprop:Generator_RowEvHandlerName="HoaDonBanVeRowChangeEventHandler" msprop:Generator_RowDeletedName="HoaDonBanVeRowDeleted" msprop:Generator_RowClassName="HoaDonBanVeRow" msprop:Generator_UserTableName="HoaDonBanVe" msprop:Generator_RowEvArgName="HoaDonBanVeRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MAVE" msprop:Generator_ColumnVarNameInTable="columnMAVE" msprop:Generator_ColumnPropNameInRow="MAVE" msprop:Generator_ColumnPropNameInTable="MAVEColumn" msprop:Generator_UserColumnName="MAVE" type="xs:string" minOccurs="0" />
+              <xs:element name="TENKHACHHANG" msprop:Generator_ColumnVarNameInTable="columnTENKHACHHANG" msprop:Generator_ColumnPropNameInRow="TENKHACHHANG" msprop:Generator_ColumnPropNameInTable="TENKHACHHANGColumn" msprop:Generator_UserColumnName="TENKHACHHANG" type="xs:string" minOccurs="0" />
+              <xs:element name="CMND" msprop:Generator_ColumnVarNameInTable="columnCMND" msprop:Generator_ColumnPropNameInRow="CMND" msprop:Generator_ColumnPropNameInTable="CMNDColumn" msprop:Generator_UserColumnName="CMND" type="xs:string" minOccurs="0" />
+              <xs:element name="MACHUYENBAY" msprop:Generator_ColumnVarNameInTable="columnMACHUYENBAY" msprop:Generator_ColumnPropNameInRow="MACHUYENBAY" msprop:Generator_ColumnPropNameInTable="MACHUYENBAYColumn" msprop:Generator_UserColumnName="MACHUYENBAY" type="xs:string" minOccurs="0" />
+              <xs:element name="TENHANGVE" msprop:Generator_ColumnVarNameInTable="columnTENHANGVE" msprop:Generator_ColumnPropNameInRow="TENHANGVE" msprop:Generator_ColumnPropNameInTable="TENHANGVEColumn" msprop:Generator_UserColumnName="TENHANGVE" type="xs:string" minOccurs="0" />
+              <xs:element name="GIATIEN" msprop:Generator_ColumnVarNameInTable="columnGIATIEN" msprop:Generator_ColumnPropNameInRow="GIATIEN" msprop:Generator_ColumnPropNameInTable="GIATIENColumn" msprop:Generator_UserColumnName="GIATIEN" type="xs:decimal" minOccurs="0" />
+              <xs:element name="NGAYGIOGD" msprop:Generator_ColumnVarNameInTable="columnNGAYGIOGD" msprop:Generator_ColumnPropNameInRow="NGAYGIOGD" msprop:Generator_ColumnPropNameInTable="NGAYGIOGDColumn" msprop:Generator_UserColumnName="NGAYGIOGD" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="NGAYHUY" msprop:Generator_ColumnVarNameInTable="columnNGAYHUY" msprop:Generator_ColumnPropNameInRow="NGAYHUY" msprop:Generator_ColumnPropNameInTable="NGAYHUYColumn" msprop:Generator_UserColumnName="NGAYHUY" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="LOAIVE" msprop:Generator_ColumnVarNameInTable="columnLOAIVE" msprop:Generator_ColumnPropNameInRow="LOAIVE" msprop:Generator_ColumnPropNameInTable="LOAIVEColumn" msprop:Generator_UserColumnName="LOAIVE" type="xs:string" minOccurs="0" />
+              <xs:element name="THOIGIANKHOIHANH" msprop:Generator_ColumnVarNameInTable="columnTHOIGIANKHOIHANH" msprop:Generator_ColumnPropNameInRow="THOIGIANKHOIHANH" msprop:Generator_ColumnPropNameInTable="THOIGIANKHOIHANHColumn" msprop:Generator_UserColumnName="THOIGIANKHOIHANH" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="THOIGIANBAY" msprop:Generator_ColumnVarNameInTable="columnTHOIGIANBAY" msprop:Generator_ColumnPropNameInRow="THOIGIANBAY" msprop:Generator_ColumnPropNameInTable="THOIGIANBAYColumn" msprop:Generator_UserColumnName="THOIGIANBAY" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="TENNHANVIEN" msprop:Generator_ColumnVarNameInTable="columnTENNHANVIEN" msprop:Generator_ColumnPropNameInRow="TENNHANVIEN" msprop:Generator_ColumnPropNameInTable="TENNHANVIENColumn" msprop:Generator_UserColumnName="TENNHANVIEN" type="xs:string" minOccurs="0" />
+              <xs:element name="TENMAYBAY" msprop:Generator_ColumnVarNameInTable="columnTENMAYBAY" msprop:Generator_ColumnPropNameInRow="TENMAYBAY" msprop:Generator_ColumnPropNameInTable="TENMAYBAYColumn" msprop:Generator_UserColumnName="TENMAYBAY" type="xs:string" minOccurs="0" />
+              <xs:element name="SDT" msprop:Generator_ColumnVarNameInTable="columnSDT" msprop:Generator_ColumnPropNameInRow="SDT" msprop:Generator_ColumnPropNameInTable="SDTColumn" msprop:Generator_UserColumnName="SDT" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
